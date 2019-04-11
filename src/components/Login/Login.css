@@ -1,0 +1,42 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: orangered;
+  color: white;
+}
+
+.input-container {
+    width: 300px;
+    display: grid;
+    grid-area: 50% 50%;
+  }
+
+.button-container {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-container button {
+  color: white;
+  background-color: grey;
+  border: none;
+  height: 30px;
+  width: 80px;
+  border-radius: 30px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:hover {
+    background-color: brown;
+}
+
+button:active {
+    
+}
